@@ -8,7 +8,7 @@ def home(request):
 def search(request):
     searchParam = request.GET["query"]
 
-    results = [searchGTD.search(searchParam)]
+    results = [searchGTD.search(searchParam, "30")]
     args = {"results":results}
     print results
 

@@ -1,8 +1,8 @@
 import subprocess
 
-def search(searchParam):
+def search(searchParam, maxNum):
     #Use grep to search file and gather results
-    c1 = ['grep', "-F", searchParam, "../GTD.csv"]
+    c1 = ['grep', "-F", "-m", maxNum, searchParam, "../GTD.csv"]
     p1 = subprocess.Popen(c1, stdout=subprocess.PIPE)
 
     #Pass results of grep to the Haskell script for parsing
