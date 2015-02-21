@@ -1,3 +1,5 @@
+import System.Environment
 
 main = do
-    print "Hello, world!"
+    args <- getArgs
+    print ("Hello, world!" ++ unwords args ++ "END")
