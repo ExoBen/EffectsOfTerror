@@ -28,15 +28,12 @@ import qualified Data.Map as M
 ---- 2 - MAIN FUNCTIONS --------------------------------------------------------
 
 main = do
-    --contents <- hGetContents stdin
-    handle <- openFile "testSearch.txt" ReadMode
+    let handle = stdin
+--    handle <- openFile "testSearch.txt" ReadMode
     hSetEncoding handle utf8
     contents <- hGetContents handle
-
     let results = map (splitOn '¬') $ lines contents
 
---    print contents
---    print . length $ results!!0
     print $ extract (priInds,secInds) results
 
 
