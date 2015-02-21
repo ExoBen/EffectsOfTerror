@@ -13,3 +13,6 @@ def search(request):
     print results
 
     return render(request, "searchResult.html", args)
+
+def graph(request):
+    return render(request, "graphData.html")
