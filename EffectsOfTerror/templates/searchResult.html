@@ -2,10 +2,16 @@
 
 {% block content %}
 
-{% for result in results %}
-{{result}}
-{% empty %}
-No results!
-{% endfor %}
+<div class="row">
+    <div class="12-small columns">
+        {% for result in results %}
+            <div class="panel">
+                {{ result }}
+            </div>
+        {% empty %}
+            No results!
+        {% endfor %}
+    </div>
+</div>
 
 {% endblock %}
