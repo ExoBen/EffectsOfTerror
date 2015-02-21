@@ -1,5 +1,6 @@
 import System.Environment
+import System.IO
 
 main = do
-    args <- getArgs
-    print ("Hello, world!" ++ unwords args ++ "END")
+    contents <- hGetContents stdin
+    print ("Hello, world!" ++ contents ++ "END")
