@@ -43,20 +43,20 @@ main = do
     -- Extract primary and secondary fields from row lists
 extract :: ([Int],[Int]) -> [[String]] -> [[[String]]]
 extract (pri, sec) results = map func results
-    where func row = [priVals row, secVals row]
+    where -- For each row in results: starting from the last index (or even greater,
+          -- it does not matter), fold back, and if the current index is in the
+          -- primary or secondary indexes lists, add its contents to the respective
+          -- list in the folding accumulator. After the fold, take the
+          -- primary/secondary tuple from the accumulator and turn it into a
+          -- 2-element list.
+          func :: [String] -> [[String]]
+          func row = (\x-> [fst x, snd x]) . fst $ foldr step (([],[]),133) row
 
-          priVals row = map (row!!) priInds
-          secVals row = map (row!!) secInds
-
-
---    where func :: [String] -> [[String]]
---          func row = (\x-> [fst x, snd x]) . fst $ foldr step (([],[]),133) row
---
---          step :: String -> (([String],[String]),Int) -> (([String],[String]),Int)
---          step val (fs@(f,s),i)
---            | i `elem` pri = ((val:f,s),i-1)
---            | i `elem` sec = ((f,val:s),i-1)
---            | otherwise    = (fs,       i-1)
+          step :: String -> (([String],[String]),Int) -> (([String],[String]),Int)
+          step val (fs@(f,s),i)
+            | i `elem` pri = ((val:f,s),i-1)
+            | i `elem` sec = ((f,val:s),i-1)
+            | otherwise    = (fs,       i-1)
 
 
     -- Basic split function at predicate of current char
@@ -84,11 +84,13 @@ index field = case M.lookup field titles of
 
 ---- 4 - DATA ------------------------------------------------------------------
 
+    -- Primary and secondary fields titles indexes
 priInds = map index primary
 secInds = map index secondary
 
-primary   = splitOn ',' "iyear,imonth,iday,location,city,region_txt,provstate,country_txt"
-secondary = splitOn ',' "summary,nkill,nwound,propvalue,attacktype1_txt,target1,targtype1_txt,weaptype1_txt"
+    -- Primary and secondary fields lists
+primary   = splitOn ',' "iyear,imonth,iday,country_txt,region_txt,provstate,city,location"
+secondary = splitOn ',' "summary,attacktype1_txt,targtype1_txt,target1,weaptype1_txt,nkill,nwound,propvalue"
 
     -- M.size titles == 134
 titles = generateLookupMap titleList
