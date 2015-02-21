@@ -64,8 +64,12 @@
 
   <script src="{% static "js/vendor/jquery.js" %}"></script>
   <script src="{% static "js/foundation.min.js" %}"></script>
+  <link rel="stylesheet" href="{% static "js/jvectormap/jquery-jvectormap-2.0.1.css" %}">
+  <script src="{% static "js/jvectormap/jquery-jvectormap-2.0.1.min.js" %}"></script>
+  <script src="{% static "js/jvectormap/jquery-jvectormap-world-mill-en.js" %}"></script>
   <script>
     $(document).foundation();
+    $('#world-map').vectorMap({map: 'world_mill_en'});
   </script>
 </body>
 </html>
