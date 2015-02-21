@@ -60,3 +60,7 @@ target/
 GTD.csv
 
 keys/
+
+EffectsOfTerror/bin/
+EffectsOfTerror/include/
+test

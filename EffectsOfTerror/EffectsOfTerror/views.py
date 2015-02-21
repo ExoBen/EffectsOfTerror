@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from subprocess import check_output
 import searchGTD
+import bloomberg
 
 def home(request):
     return render(request, "index.html")
