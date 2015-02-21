@@ -55,3 +55,6 @@ target/
 
 #Haskell Gumfph
 *.o
+
+#Global Terrorism Database
+GTD.csv
