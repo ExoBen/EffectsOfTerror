@@ -17,12 +17,12 @@ def request():
     req.add_header('Content-Type', 'application/json')
 
     ctx = ssl.SSLContext(ssl.PROTOCOL_SSLv23)
-    ctx.load_verify_locations('../../keys/bloomberg.crt')
-    ctx.load_cert_chain('../../keys/stacshack_spring_2015_023.crt', '../../keys/stacshack_spring_2015_023.key')
+    ctx.load_verify_locations('../keys/bloomberg.crt')
+    ctx.load_cert_chain('../keys/stacshack_spring_2015_023.crt', '../keys/stacshack_spring_2015_023.key')
 
     try:
         res = urllib2.urlopen(req, data=json.dumps(data), context=ctx)
-        print res.read()
+        return eval(res.read())
     except Exception as e:
         e
         print e

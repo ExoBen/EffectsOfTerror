@@ -56,6 +56,9 @@
 </div>
 {% endblock %}
 
-{% block JS %}
-<script>var data = {{ result }};</script>
+{% block js %}
+<script>
+var data = {{ result | safe }};
+console.log(data);
+</script>
 {% endblock %}
