@@ -15,4 +15,6 @@ def search(request):
     return render(request, "searchResult.html", args)
 
 def graph(request):
-    return render(request, "graphData.html")
+    result = bloomberg.request()
+    args = {"result": result}
+    return render(request, "graphData.html", args)

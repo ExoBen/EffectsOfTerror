@@ -6,11 +6,10 @@ import sys
 import urllib2
 
 data = {
-    "securities": ["912828J2"],
+    "securities": ["AEM1ROT Index"],
     "fields": ["PX_LAST"],
-    "startDate": "20120101",
-    "endDate": "20120301",
-    "periodicitySelection": "DAILY"
+    "startDate": "19700101",
+    "endDate": "20120301"
 }
 
 def request():
