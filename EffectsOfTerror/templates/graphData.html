@@ -17,32 +17,26 @@
                         <li class="tab-title active"><a href="#panel1">Stock Indexes</a></li>
                         <li class="tab-title"><a href="#panel2">State Bonds</a></li>
                         <li class="tab-title"><a href="#panel3">Financial Risk</a></li>
-                        <li class="tab-title"><a href="#panel4">Population</a></li>
-                        <li class="tab-title"><a href="#panel5">Migration</a></li>
+                        <li class="tab-title"><a href="#panel4">Migration</a></li>
                     </ul>
 
                     <!-- GRAPHS -->
                     <div class="tabs-content">
 
                         <div class="content active" id="panel1">
-                            <svg id="stock">
+                            <svg width="1000" height="500" id="stock"></svg>
                         </div>
 
                         <div class="content" id="panel2">
-                            <svg id="bonds">
+                            <svg width="1000" height="500" id="bonds"></svg>
                         </div>
 
                         <div class="content" id="panel3">
-                            <svg id="risk">
+                            <svg width="1000" height="500" id="risk"></svg>
                         </div>
-
 
                         <div class="content" id="panel4">
-                            <svg id="pop">
-                        </div>
-
-                        <div class="content" id="panel5">
-                            <svg id="migration">
+                            <svg width="1000" height="500" id="migration"></svg>
                         </div>
 
                     </div>
@@ -52,16 +46,11 @@
         </div>
 
     </div>
-</div>
-<svg width="1000" height="500" id="visualisation"></svg>
+</div>>
 {% endblock %}
 
 {% block js %}
 <style>
-
-body {
-  font: 10px sans-serif;
-}
 
 .axis path,
 .axis line {
@@ -83,7 +72,76 @@ body {
 </style>
 
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
 <script>
+function drawGraph(lineData, visID) {
+    var vis = d3.select(visID),
+        WIDTH = 1000,
+        HEIGHT = 500,
+        MARGINS = {
+          top: 20,
+          right: 20,
+          bottom: 20,
+          left: 50
+        },
+
+        parseDate = d3.time.format("%Y-%m-%d").parse,
+
+        xRange = d3.time.scale().range([MARGINS.left, WIDTH - MARGINS.right]).domain([d3.min(lineData, function (d) {
+            return parseDate(d.date.substring(0,10));
+          }),
+          d3.max(lineData, function (d) {
+            return parseDate(d.date.substring(0,10));
+          })
+        ]),
+
+        yRange = d3.scale.linear().range([HEIGHT - MARGINS.top, MARGINS.bottom]).domain([d3.min(lineData, function (d) {
+            return d.PX_LAST;
+          }),
+          d3.max(lineData, function (d) {
+            return d.PX_LAST;
+          })
+        ]),
+
+        xAxis = d3.svg.axis()
+          .scale(xRange)
+          .tickSize(5)
+          .tickSubdivide(true),
+
+        yAxis = d3.svg.axis()
+          .scale(yRange)
+          .tickSize(5)
+          .orient("left")
+          .tickSubdivide(true);
+
+
+      vis.append("svg:g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + (HEIGHT - MARGINS.bottom) + ")")
+        .call(xAxis);
+
+      vis.append("svg:g")
+        .attr("class", "y axis")
+        .attr("transform", "translate(" + (MARGINS.left) + ",0)")
+        .call(yAxis);
+
+      var lineFunc = d3.svg.line()
+      .x(function (d) {
+        return xRange(parseDate(d.date.substring(0,10)));
+      })
+      .y(function (d) {
+        return yRange(d.PX_LAST);
+      })
+      .interpolate('basis');
+
+    vis.append("svg:path")
+      .attr("d", lineFunc(lineData))
+      .attr("stroke", "blue")
+      .attr("stroke-width", 2)
+      .attr("fill", "none");
+}
+
+
 var data = {{ result | safe }};
 for (var value in data) {
     if (data.hasOwnProperty(value)) {
@@ -92,99 +150,10 @@ for (var value in data) {
     }
 }
 
-lineData = data["AAPL US Equity"];
-
-var vis = d3.select("#visualisation"),
-    WIDTH = 1000,
-    HEIGHT = 500,
-    MARGINS = {
-      top: 20,
-      right: 20,
-      bottom: 20,
-      left: 50
-    },
-
-    parseDate = d3.time.format("%Y-%m-%d").parse,
-
-    xRange = d3.time.scale().range([MARGINS.left, WIDTH - MARGINS.right]).domain([d3.min(lineData, function (d) {
-        return parseDate(d.date.substring(0,10));
-      }),
-      d3.max(lineData, function (d) {
-        return parseDate(d.date.substring(0,10));
-      })
-    ]),
-
-    yRange = d3.scale.linear().range([HEIGHT - MARGINS.top, MARGINS.bottom]).domain([d3.min(lineData, function (d) {
-        return d.PX_LAST;
-      }),
-      d3.max(lineData, function (d) {
-        return d.PX_LAST;
-      })
-    ]),
-
-    xAxis = d3.svg.axis()
-      .scale(xRange)
-      .tickSize(5)
-      .tickSubdivide(true),
-
-    yAxis = d3.svg.axis()
-      .scale(yRange)
-      .tickSize(5)
-      .orient("left")
-      .tickSubdivide(true);
-
-
-  vis.append("svg:g")
-    .attr("class", "x axis")
-    .attr("transform", "translate(0," + (HEIGHT - MARGINS.bottom) + ")")
-    .call(xAxis);
-
-  vis.append("svg:g")
-    .attr("class", "y axis")
-    .attr("transform", "translate(" + (MARGINS.left) + ",0)")
-    .call(yAxis);
-
-  var lineFunc = d3.svg.line()
-  .x(function (d) {
-    return xRange(parseDate(d.date.substring(0,10)));
-  })
-  .y(function (d) {
-    return yRange(d.PX_LAST);
-  })
-  .interpolate('basis');
-
-vis.append("svg:path")
-  .attr("d", lineFunc(lineData))
-  .attr("stroke", "blue")
-  .attr("stroke-width", 2)
-  .attr("fill", "none");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+drawGraph(data["IBM US Equity"], "#stock");
+drawGraph(data["AAPL US Equity"], "#bonds");
+drawGraph(data["IBM US Equity"], "#risk");
+drawGraph(data["AAPL US Equity"], "#migration");
 
 </script>
 {% endblock %}
