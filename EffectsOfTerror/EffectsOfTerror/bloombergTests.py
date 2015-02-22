@@ -12,7 +12,7 @@ import countries
 # Indexses of the dictionary are: migration, risk, stocks and bonds
 dataLists = BloombergData.getData()
 # Dictionary of country codes
-conuntryCode = countries.countries()
+countryCode = countries.countries()
 
 # Main Functions
 
@@ -46,13 +46,13 @@ def getBloombergQueries(country, year, month, day):
 
     for k in ["bonds", "stocks"]:
         for i in range(0,len(dataLists[k])):
-            if dataLists[k][i][2] == countryCode[country]:
+            if dataLists[k][i][-1] == countryCode[country]:
                 securities.append(dataLists[k][i][0])
 
     for k in ["migration", "risk"]:
         for i in range(0,len(dataLists[k])):
             regex = re.compile(country, re.I)
-            if regex.search(dataLists[k][i][1]) != None:
+            if regex.search(dataLists[k][i][-1]) != None:
                 securities.append(dataLists[k][i][0])
 
     # Possible future bug: what if more than one country entry is returned?
