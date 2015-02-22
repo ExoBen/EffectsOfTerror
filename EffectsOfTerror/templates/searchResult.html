@@ -2,6 +2,24 @@
 
 {% block content %}
 
+{% load staticfiles %}
+<script src="{% static "js/vendor/jquery.js" %}"></script>
+<script>
+  function getData(curr) {
+    var result = {{ results | safe }};
+    var parent1 = $(curr).parent();
+    var parent = parent1.parent();
+    var year = parent.children().eq(0).html();
+    var month = parent.children().eq(1).html();
+    var day = parent.children().eq(2).html();
+    var country = parent.children().eq(3).html();
+    //var urlString = "";
+    //var urlString.concat("/graph/?country=",country,"?year=",year,"?month=",month,"?day=",day);
+    var urlString = "/graph/?country="+country+"?year="+year+"?month="+month+"?day="+day;
+    console.log(urlString)
+  }
+</script>
+
 <div class="row">
     <div class="12-small columns">
         <div class="panel">
@@ -28,7 +46,7 @@
                     {% endfor %}
                     <td><a href="#" data-reveal-id="modalMain">More Info</a></td>
 
-                                        <td><a class="button" href="">Select</a></td>
+                    <td><a class="button" onclick="getData(this);">Select</a></td>
                 </tr>
 
                 {% empty %}
@@ -41,6 +59,7 @@
 </div>
 </div>
 
+<!-- Extra Info -->
 <div id="modalMain" class="reveal-modal" data-reveal>
     <table>
         <thead>
@@ -69,5 +88,8 @@
     </table>
     <a class="close-reveal-modal">&#215;</a>
 </div>
+
+<!-- getData JS function -->
+
 
 {% endblock %}
