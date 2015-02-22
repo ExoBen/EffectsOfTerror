@@ -9,7 +9,7 @@ import urllib2
 dataLists = BloombergData.getData()
 
 data = {
-    "securities": [dataLists.migration[0]],
+    "securities": [dataLists["migration"][0][0]],
     "fields": ["PX_LAST"],
     "startDate": "19700101",
     "endDate": "20120301"
