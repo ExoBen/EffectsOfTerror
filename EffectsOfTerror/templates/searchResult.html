@@ -20,22 +20,53 @@
                 </tr>
             </thead>
             <tbody>
-        {% for result in results %}
-        <tr>
-            {% for element in result.0 %}
-            <td>{{ element }}</td>
-            {% endfor %}
-            <td><a class="button" href="">Select</a></td>
-        </tr>
+                {% for result in results %}
+                <tr>
+                    {% for element in result.0 %}
+                    <td>{{ element }}</td>
+                    {% endfor %}
+                    <td><a href="#" data-reveal-id="modalMain">More Info</a></td>
 
-        {% empty %}
-            No results!
-        {% endfor %}
-    </tbody>
-</table>
+                                        <td><a class="button" href="">Select</a></td>
+                </tr>
+
+                {% empty %}
+                    No results!
+                {% endfor %}
+            </tbody>
+        </table>
 
     </div>
 </div>
+</div>
+
+<div id="modalMain" class="reveal-modal" data-reveal>
+    <table>
+        <thead>
+            <tr>
+                <th>Summary</th>
+                <th>Attack Type</th>
+                <th>Target Type</th>
+                <th>Target Types...</th>
+                <th>Weapon Used</th>
+                <th>Number Killed</th>
+                <th>Number Wounded</th>
+                <th>Value of Property Destroyed</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for result in results %}
+            <tr>
+                {% for element in result.1 %}
+                <td>{{ element }}</td>
+                {% endfor %}
+                {% empty %}
+                    No results!
+                {% endfor %}
+            </tr>
+        </tbody>
+    </table>
+    <a class="close-reveal-modal">&#215;</a>
 </div>
 
 {% endblock %}
