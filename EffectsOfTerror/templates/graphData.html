@@ -79,10 +79,10 @@ function drawGraph(lineData, visID) {
         WIDTH = 1000,
         HEIGHT = 500,
         MARGINS = {
-          top: 20,
-          right: 20,
+          top: 25,
+          right: 25,
           bottom: 20,
-          left: 50
+          left: 80
         },
 
         parseDate = d3.time.format("%Y-%m-%d").parse,
@@ -146,13 +146,13 @@ var data = {{ result | safe }};
 console.log(data["data"]);
 console.log(data["data"]["0"]["securityData"]["fieldData"]);
 
-alert(Object.keys(data["data"]));
+//alert(Object.keys(data["data"]));
 i = 0;
 var types = ["stock","bonds","risk","migration"]
 for (var keyValue in Object.keys(data["data"])) {
-    alert(keyValue);
+    //alert(keyValue);
     drawGraph(data["data"][keyValue]["securityData"]["fieldData"], "#" + types[i]);
-    alert(types[i]);
+    //alert(types[i]);
     i++;
 }
 
