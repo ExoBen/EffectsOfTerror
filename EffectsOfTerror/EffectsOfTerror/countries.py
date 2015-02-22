@@ -1,6 +1,6 @@
+# -*- coding: utf-8 -*-
 # This program is designed to export a dictionary which returns short codes for countries
 
-# -*- coding: utf-8 -*-
 def countries():
     return {
         "Afghanistan":"AF",

@@ -1,9 +1,9 @@
-import BloombergData
 import argparse
 import json
 import ssl
 import sys
 import urllib2
+import BloombergData
 import re
 import countries
 
@@ -45,15 +45,15 @@ def getBloombergQueries(country, year, month, day):
     securities = []
 
     for k in ["bonds", "stocks"]:
-        for i in range(0..len(dataLists[k])):
-            if dataLists[k][i][0] == countryCode[country]:
-                securities.append(dataLists[k][i][2])
+        for i in range(0,len(dataLists[k])):
+            if dataLists[k][i][2] == countryCode[country]:
+                securities.append(dataLists[k][i][0])
 
     for k in ["migration", "risk"]:
-        for i in range(0..len(dataLists[k])):
+        for i in range(0,len(dataLists[k])):
             regex = re.compile(country, re.I)
-            if regex.search(dataLists[k][i][0]) != None:
-                securities.append(dataLists[k][i][2])
+            if regex.search(dataLists[k][i][1]) != None:
+                securities.append(dataLists[k][i][0])
 
     # Possible future bug: what if more than one country entry is returned?
     return {
