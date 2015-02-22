@@ -5,22 +5,22 @@ def getData():
     migration = []
     for line in open("MigrationData.txt"):
         terms = line[0:-1].split(",")
-        migration.append(reversed(terms))
+        migration.append(terms)
 
     risk = []
     for line in open("RiskData.txt"):
         terms = line[0:-1].split(",")
-        risk.append(reversed(terms))
+        risk.append(terms)
 
     stocks = []
     for line in open("StockIndexData.txt"):
         terms = line[0:-1].split(",")
-        stocks.append(reversed(terms))
+        stocks.append(terms)
 
     bonds = []
     for line in open("BondsData.txt"):
         terms = line[0:-1].split(",")
-        bonds.append(reversed(terms))
+        bonds.append(terms)
 
     return {
             "migration":migration,
