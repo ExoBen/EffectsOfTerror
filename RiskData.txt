@@ -1,0 +1,134 @@
+AEM1COT  Index	Colombia Terrorism Risk Allian
+AEM1BET  Index	Belgium Terrorism Risk Alliant
+AEM1AET  Index	Armenia Terrorism Risk Alliant
+AEM1AFT  Index	Afghanistan Terrorism Risk All
+AEM1AIT  Index	Algeria Terrorism Risk Alliant
+AEM1ALT  Index	Albania Terrorism Risk Alliant
+AEM1AOT  Index	Angola Terrorism Risk Alliant
+AEM1ART  Index	Argentina Terrorism Risk Allia
+AEM1AST  Index	Austria Terrorism Risk Alliant
+AEM1AUT  Index	Australia Terrorism Risk Allia
+AEM1AZT  Index	Algeria Terrorism Risk Alliant
+AEM1B5T  Index	Benin Terrorism Risk Alliant
+AEM1BFT  Index	Burkina Faso Terrorism Risk Al
+AEM1BGT  Index	Burundi Terrorism Risk Alliant
+AEM1BIT  Index	Belize Terrorism Risk Alliant
+AEM1BJT  Index	Bahrain Terrorism Risk Alliant
+AEM1BLT  Index	Bolivia Terrorism Risk Alliant
+AEM1BMT  Index	Brunei Terrorism Risk Alliant
+AEM1BOT  Index	Botswana Terrorism Risk Allian
+AEM1BPT  Index	Bulgaria Terrorism Risk Allian
+AEM1BWT  Index	Bangladesh Terrorism Risk Alli
+AEM1BZT  Index	Brazil Terrorism Risk Alliant
+AEM1C8T  Index	Chad Terrorism Risk Alliant
+AEM1CAT  Index	Canada Terrorism Risk Alliant
+AEM1CFT  Index	Central African Republic Terro
+AEM1CHT  Index	China (PRC) Terrorism Risk All
+AEM1CLT  Index	Chile Terrorism Risk Alliant
+AEM1CMT  Index	Cameroon Terrorism Risk Allian
+AEM1CRT  Index	Costa Rica Terrorism Risk Alli
+AEM1CZT  Index	Czech Republic Terrorism Risk
+AEM1DENT Index	Denmark Terrorism Risk Alliant
+AEM1DJT  Index	Djibouti Terrorism Risk Allian
+AEM1DRT  Index	Dominican Republic Terrorism R
+AEM1EDT  Index	Ecuador Terrorism Risk Alliant
+AEM1EGT  Index	Egypt Terrorism Risk Alliant
+AEM1ELT  Index	El Salvador Terrorism Risk All
+AEM1ERT  Index	Eritrea Terrorism Risk Alliant
+AEM1ETT  Index	Ethiopia Terrorism Risk Allian
+AEM1FINT Index	Finland Terrorism Risk Alliant
+AEM1FRT  Index	France Terrorism Risk Alliant
+AEM1G1T  Index	Guinea Terrorism Risk Alliant
+AEM1G2T  Index	Guinea Bissau Terrorism Risk A
+AEM1GAT  Index	Gambia Terrorism Risk Alliant
+AEM1GBT  Index	United Kingdom Terrorism Risk
+AEM1GET  Index	Germany Terrorism Risk Alliant
+AEM1GHT  Index	Ghana Terrorism Risk Alliant
+AEM1GIT  Index	Equatorial Guinea Terrorism Ri
+AEM1GNT  Index	Gabon Terrorism Risk Alliant
+AEM1GRT  Index	Greece Terrorism Risk Alliant
+AEM1GUT  Index	Guatemala Terrorism Risk Allia
+AEM1GYT  Index	Guyana Terrorism Risk Alliant
+AEM1HKT  Index	China (Hong Kong) Terrorism Ri
+AEM1HOT  Index	Honduras Terrorism Risk Allian
+AEM1HUT  Index	Hungary Terrorism Risk Alliant
+AEM1IDT  Index	Indonesia Terrorism Risk Allia
+AEM1INT  Index	India Terrorism Risk Alliant
+AEM1IQT  Index	Iraq Terrorism Risk Alliant
+AEM1IST  Index	Israel Terrorism Risk Alliant
+AEM1IVT  Index	Cote d'Ivoire Terrorism Risk A
+AEM1JNT  Index	Japan Terrorism Risk Alliant
+AEM1JOT  Index	Jordan Terrorism Risk Alliant
+AEM1KHT  Index	Cambodia Terrorism Risk Allian
+AEM1KNT  Index	Kenya Terrorism Risk Alliant
+AEM1KUT  Index	Kuwait Terrorism Risk Alliant
+AEM1KYT  Index	Kyrgyzstan Terrorism Risk Alli
+AEM1KZT  Index	Kazakhstan Terrorism Risk Alli
+AEM1LET  Index	Lebanon Terrorism Risk Alliant
+AEM1LOT  Index	Laos Terrorism Risk Alliant
+AEM1LRT  Index	Liberia Terrorism Risk Alliant
+AEM1LYT  Index	Libya Terrorism Risk Alliant
+AEM1MAT  Index	Malaysia Terrorism Risk Allian
+AEM1MGT  Index	Madagascar Terrorism Risk Alli
+AEM1MJT  Index	Mongolia Terrorism Risk Allian
+AEM1MLT  Index	Mali Terrorism Risk Alliant
+AEM1MMT  Index	Mauritania Terrorism Risk Alli
+AEM1MOT  Index	Morocco Terrorism Risk Alliant
+AEM1MWT  Index	Malawi Terrorism Risk Alliant
+AEM1MXT  Index	Mexico Terrorism Risk Alliant
+AEM1MYT  Index	Burma (Myanmar) Terrorism Risk
+AEM1MZT  Index	Mozambique Terrorism Risk Alli
+AEM1NAT  Index	Namibia Terrorism Risk Alliant
+AEM1NCT  Index	Nicaragua Terrorism Risk Allia
+AEM1NGT  Index	Nigeria Terrorism Risk Alliant
+AEM1NORT Index	Norway Terrorism Risk Alliant
+AEM1NPT  Index	Nepal Terrorism Risk Alliant
+AEM1NRT  Index	Niger Terrorism Risk Alliant
+AEM1NZT  Index	New Zealand Terrorism Risk All
+AEM1OMT  Index	Oman Terrorism Risk Alliant
+AEM1PDT  Index	Poland Terrorism Risk Alliant
+AEM1PET  Index	Peru Terrorism Risk Alliant
+AEM1PGT  Index	Paraguay Terrorism Risk Allian
+AEM1PHT  Index	Philippines Terrorism Risk All
+AEM1PKT  Index	Pakistan Terrorism Risk Allian
+AEM1PNT  Index	Panama Terrorism Risk Alliant
+AEM1POT  Index	Portugal Terrorism Risk Allian
+AEM1QAT  Index	Qatar Terrorism Risk Alliant
+AEM1RCT  Index	Congo (Republic of the) Terror
+AEM1ROT  Index	Romania Terrorism Risk Alliant
+AEM1RUT  Index	Russia Terrorism Risk Alliant
+AEM1RWT  Index	Rwanda Terrorism Risk Alliant
+AEM1S9T  Index	Sierra Leone Terrorism Risk Al
+AEM1SAT  Index	South Africa Terrorism Risk Al
+AEM1SDT  Index	Sudan Terrorism Risk Alliant
+AEM1SET  Index	Senegal Terrorism Risk Alliant
+AEM1SIT  Index	Singapore Terrorism Risk Allia
+AEM1SKT  Index	Korea (South) Terrorism Risk A
+AEM1SLT  Index	Sri Lanka Terrorism Risk Allia
+AEM1SNT  Index	Suriname Terrorism Risk Allian
+AEM1SOT  Index	Slovakia Terrorism Risk Allian
+AEM1SPT  Index	Spain Terrorism Risk Alliant
+AEM1SQT  Index	Somalia Terrorism Risk Alliant
+AEM1SRT  Index	Saudi Arabia Terrorism Risk Al
+AEM1SWET Index	Sweden Terrorism Risk Alliant
+AEM1SYT  Index	Syria Terrorism Risk Alliant
+AEM1TAT  Index	China (Taiwan) Terrorism Risk
+AEM1TGT  Index	Togo Terrorism Risk Alliant
+AEM1THT  Index	Thailand Terrorism Risk Allian
+AEM1TJT  Index	Tajikistan Terrorism Risk Alli
+AEM1TNT  Index	Tunisia Terrorism Risk Alliant
+AEM1TTT  Index	Turkmenistan Terrorism Risk Al
+AEM1TUT  Index	Turkey Terrorism Risk Alliant
+AEM1TZT  Index	Tanzania (United Republic of)
+AEM1UAT  Index	United Arab Emirates Terrorism
+AEM1UGT  Index	Uganda Terrorism Risk Alliant
+AEM1UKT  Index	Ukraine Terrorism Risk Alliant
+AEM1URT  Index	Uruguay Terrorism Risk Alliant
+AEM1UST  Index	United States of America Terro
+AEM1UZT  Index	Uzbekistan Terrorism Risk Alli
+AEM1VNT  Index	Vietnam Terrorism Risk Alliant
+AEM1VZT  Index	Venezuela Terrorism Risk Allia
+AEM1YMT  Index	Yemen Terrorism Risk Alliant
+AEM1ZAT  Index	Congo (DRC) Terrorism Risk All
+AEM1ZIT  Index	Zimbabwe Terrorism Risk Allian
+AEM1ZMT  Index	Zambia Terrorism Risk Alliant

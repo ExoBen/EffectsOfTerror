@@ -1,0 +1,18 @@
+INDU Index	  DOW JONES INDUS. AVG	    US
+SPX Index	  S&P 500 INDEX	            US
+CCMP Index	  NASDAQ COMPOSITE INDEX	US
+SPTSX Index	  S&P/TSX COMPOSITE INDEX	CA
+MEXBOL Index  MEXICO IPC INDEX	        MX
+IBOV Index	  BRAZIL IBOVESPA INDEX	    BZ
+SX5E Index	  Euro Stoxx 50 Pr	        EC
+UKX Index	  FTSE 100 INDEX      	    GB
+CAC Index	  CAC 40 INDEX	            FR
+DAX Index	  DAX INDEX	                GE
+IBEX Index	  IBEX 35 INDEX	            SP
+FTSEMIB Index FTSE MIB INDEX	        IT
+AEX Index	  AEX-Index	                NE
+OMX Index	  OMX STOCKHOLM 30 INDEX	SW
+SMI Index	  SWISS MARKET INDEX	    SZ
+NKY Index	  NIKKEI 225	            JN
+HSI Index	  HANG SENG INDEX	        HK
+AS51 Index	  S&P/ASX 200 INDEX	        AU
