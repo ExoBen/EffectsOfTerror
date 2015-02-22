@@ -1,7 +1,7 @@
 # This program exports a finction which extracts Bloomberg data from csv files
 # containing details regarding specific entries
 
-def bloombergData():
+def getData():
     migration = []
     for line in open("MigrationData.txt"):
         terms = line[0:-1].split(",")

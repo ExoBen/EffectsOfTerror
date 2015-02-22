@@ -1,12 +1,15 @@
-
+import BloombergData
 import argparse
 import json
 import ssl
 import sys
 import urllib2
 
+# Indexses of the dictionary are: migration, risk, stocks and bonds
+dataLists = BloombergData.getData()
+
 data = {
-    "securities": ["AEM1ROT Index"],
+    "securities": [dataLists.migration[0]],
     "fields": ["PX_LAST"],
     "startDate": "19700101",
     "endDate": "20120301"
