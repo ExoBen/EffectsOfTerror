@@ -17,7 +17,10 @@ def search(request):
 def graph(request):
     result = bloomberg.request()
     args = {}
+    res = {}
     for value in result["data"]:
-        args[value] = value["securityData"]["fieldData"]
-    args = {"result": result}
+        #print value
+        res[value["securityData"]["security"]] = value["securityData"]["fieldData"]
+
+    args["result"] = res
     return render(request, "graphData.html", args)
