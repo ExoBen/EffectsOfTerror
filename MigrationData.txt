@@ -1,245 +1,244 @@
-Security       Description
-NTMGNZWE Index Net Migration Zimbabwe
-NTMGNZMB Index Net Migration Zambia
-NTMGNYEM Index Net Migration Yemen Rep
-NTMGNWLD Index Net Migration World
-NTMGNPSE Index Net Migration West Bank And Gaza
-NTMGNVIR Index Net Migration Virgin Islands Us
-NTMGNVNM Index Net Migration Vietnam
-NTMGNVEN Index Net Migration Venezuela Rb
-NTMGNVUT Index Net Migration Vanuatu
-NTMGNUZB Index Net Migration Uzbekistan
-NTMGNURY Index Net Migration Uruguay
-NTMGNUMC Index Net Migration Upper Middle Income
-NTMGNUSA Index Net Migration United States
-NTMGNGBR Index Net Migration United Kingdom
-NTMGNARE Index Net Migration United Arab Emirates
-NTMGNUKR Index Net Migration Ukraine
-NTMGNUGA Index Net Migration Uganda
-NTMGNTUV Index Net Migration Tuvalu
-NTMGNTCA Index Net Migration Turks And Caicos Islands
-NTMGNTKM Index Net Migration Turkmenistan
-NTMGNTUR Index Net Migration Turkey
-NTMGNTUN Index Net Migration Tunisia
-NTMGNTTO Index Net Migration Trinidad And Tobago
-NTMGNTON Index Net Migration Tonga
-NTMGNTGO Index Net Migration Togo
-NTMGNTLS Index Net Migration Timorleste
-NTMGNTHA Index Net Migration Thailand
-NTMGNTZA Index Net Migration Tanzania
-NTMGNTJK Index Net Migration Tajikistan
-NTMGNSYR Index Net Migration Syrian Arab Republic
-NTMGNCHE Index Net Migration Switzerland
-NTMGNSWE Index Net Migration Sweden
-NTMGNSWZ Index Net Migration Swaziland
-NTMGNSUR Index Net Migration Suriname
-NTMGNSDN Index Net Migration Sudan
-NTMGNSSA Index Net Migration Subsaharan Africa Developing Only
-NTMGNSSF Index Net Migration Subsaharan Africa All Income Levels
-NTMGNVCT Index Net Migration St Vincent And The Grenadines
-NTMGNMAF Index Net Migration St Martin French Part
-NTMGNLCA Index Net Migration St Lucia
-NTMGNKNA Index Net Migration St Kitts And Nevis
-NTMGNLKA Index Net Migration Sri Lanka
-NTMGNESP Index Net Migration Spain
-NTMGNSSD Index Net Migration South Sudan
-NTMGNSAS Index Net Migration South Asia
-NTMGNZAF Index Net Migration South Africa
-NTMGNSOM Index Net Migration Somalia
-NTMGNSLB Index Net Migration Solomon Islands
-NTMGNSVN Index Net Migration Slovenia
-NTMGNSVK Index Net Migration Slovak Republic
-NTMGNSXM Index Net Migration Sint Maarten Dutch Part
-NTMGNSGP Index Net Migration Singapore
-NTMGNSLE Index Net Migration Sierra Leone
-NTMGNSYC Index Net Migration Seychelles
-NTMGNSRB Index Net Migration Serbia
-NTMGNSEN Index Net Migration Senegal
-NTMGNSAU Index Net Migration Saudi Arabia
-NTMGNSTP Index Net Migration Sao Tome And Principe
-NTMGNSMR Index Net Migration San Marino
-NTMGNWSM Index Net Migration Samoa
-NTMGNRWA Index Net Migration Rwanda
-NTMGNRUS Index Net Migration Russian Federation
-NTMGNROU Index Net Migration Romania
-NTMGNQAT Index Net Migration Qatar
-NTMGNPRI Index Net Migration Puerto Rico
-NTMGNPRT Index Net Migration Portugal
-NTMGNPOL Index Net Migration Poland
-NTMGNPHL Index Net Migration Philippines
-NTMGNPER Index Net Migration Peru
-NTMGNPRY Index Net Migration Paraguay
-NTMGNPNG Index Net Migration Papua New Guinea
-NTMGNPAN Index Net Migration Panama
-NTMGNPLW Index Net Migration Palau
-NTMGNPAK Index Net Migration Pakistan
-NTMGNOMN Index Net Migration Oman
-NTMGNOED Index Net Migration OECD Members
-NTMGNINX Index Net Migration Not Classified
-NTMGNNOR Index Net Migration Norway
-NTMGNMNP Index Net Migration Northern Mariana Islands
-NTMGNNAC Index Net Migration North America
-NTMGNNGA Index Net Migration Nigeria
-NTMGNNER Index Net Migration Niger
-NTMGNNIC Index Net Migration Nicaragua
-NTMGNNZL Index Net Migration New Zealand
-NTMGNNCL Index Net Migration New Caledonia
-NTMGNNLD Index Net Migration Netherlands
-NTMGNNPL Index Net Migration Nepal
-NTMGNNAM Index Net Migration Namibia
-NTMGNMMR Index Net Migration Myanmar
-NTMGNMOZ Index Net Migration Mozambique
-NTMGNMAR Index Net Migration Morocco
-NTMGNMNE Index Net Migration Montenegro
-NTMGNMNG Index Net Migration Mongolia
-NTMGNMCO Index Net Migration Monaco
-NTMGNMDA Index Net Migration Moldova
-NTMGNMIC Index Net Migration Middle Income
-NTMGNFSM Index Net Migration Micronesia Fed Sts
-NTMGNMEX Index Net Migration Mexico
-NTMGNMNA Index Net Migration Mddl Est& North Africa Developing Only
-NTMGNMEA Index Net Migration Mddl Est& North Africa All Income Levels
-NTMGNMYT Index Net Migration Mayotte
-NTMGNMUS Index Net Migration Mauritius
-NTMGNMRT Index Net Migration Mauritania
-NTMGNMHL Index Net Migration Marshall Islands
-NTMGNMLT Index Net Migration Malta
-NTMGNMLI Index Net Migration Mali
-NTMGNMDV Index Net Migration Maldives
-NTMGNMYS Index Net Migration Malaysia
-NTMGNMWI Index Net Migration Malawi
-NTMGNMDG Index Net Migration Madagascar
-NTMGNMKD Index Net Migration Macedonia FYR
-NTMGNMAC Index Net Migration Macao SAR China
-NTMGNLUX Index Net Migration Luxembourg
-NTMGNLMC Index Net Migration Lower Middle Income
-NTMGNLIC Index Net Migration Low Income
-NTMGNLMY Index Net Migration Low & Middle Income
-NTMGNLTU Index Net Migration Lithuania
-NTMGNLIE Index Net Migration Liechtenstein
-NTMGNLBY Index Net Migration Libya
-NTMGNLBR Index Net Migration Liberia
-NTMGNLSO Index Net Migration Lesotho
-NTMGNLBN Index Net Migration Lebanon
-NTMGNLDC Index Net Migration Least Dvlpd Countries UN Classification
-NTMGNLVA Index Net Migration Latvia
-NTMGNLAO Index Net Migration Lao Pdr
-NTMGNLAC Index Net Migration LA & Caribbean Developing Only
-NTMGNLCN Index Net Migration LA & Caribbean All Income Levels
-NTMGNKGZ Index Net Migration Kyrgyz Republic
-NTMGNKWT Index Net Migration Kuwait
-NTMGNKSV Index Net Migration Kosovo
-NTMGNKOR Index Net Migration Korea Rep
-NTMGNPRK Index Net Migration Korea Dem Rep
-NTMGNKIR Index Net Migration Kiribati
-NTMGNKEN Index Net Migration Kenya
-NTMGNKAZ Index Net Migration Kazakhstan
-NTMGNJOR Index Net Migration Jordan
-NTMGNJPN Index Net Migration Japan
-NTMGNJAM Index Net Migration Jamaica
-NTMGNITA Index Net Migration Italy
-NTMGNISR Index Net Migration Israel
-NTMGNIMN Index Net Migration Isle Of Man
-NTMGNIRL Index Net Migration Ireland
-NTMGNIRQ Index Net Migration Iraq
-NTMGNIRN Index Net Migration Iran Islamic Rep
-NTMGNIDN Index Net Migration Indonesia
-NTMGNIND Index Net Migration India
-NTMGNISL Index Net Migration Iceland
-NTMGNHUN Index Net Migration Hungary
-NTMGNHKG Index Net Migration Hong Kong SAR China
-NTMGNHND Index Net Migration Honduras
-NTMGNOEC Index Net Migration High Income OECD
-NTMGNNOC Index Net Migration High Income NonOECD
-NTMGNHIC Index Net Migration High Income
-NTMGNHPC Index Net Migration Heavily Indebted Poor Countries HIPC
-NTMGNHTI Index Net Migration Haiti
-NTMGNGUY Index Net Migration Guyana
-NTMGNGNB Index Net Migration Guineabissau
-NTMGNGIN Index Net Migration Guinea
-NTMGNGTM Index Net Migration Guatemala
-NTMGNGUM Index Net Migration Guam
-NTMGNGRD Index Net Migration Grenada
-NTMGNGRL Index Net Migration Greenland
-NTMGNGRC Index Net Migration Greece
-NTMGNGIB Index Net Migration Gibraltar
-NTMGNGHA Index Net Migration Ghana
-NTMGNDEU Index Net Migration Germany
-NTMGNGEO Index Net Migration Georgia
-NTMGNGMB Index Net Migration Gambia The
-NTMGNGAB Index Net Migration Gabon
-NTMGNPYF Index Net Migration French Polynesia
-NTMGNFRA Index Net Migration France
-NTMGNFIN Index Net Migration Finland
-NTMGNFJI Index Net Migration Fiji
-NTMGNFRO Index Net Migration Faeroe Islands
-NTMGNEUU Index Net Migration European Union
-NTMGNECA Index Net Migration Europe & Central Asia Developing Only
-NTMGNECS Index Net Migration Europe & Central Asia All Income Levels
-NTMGNEMU Index Net Migration Euro Area
-NTMGNETH Index Net Migration Ethiopia
-NTMGNEST Index Net Migration Estonia
-NTMGNERI Index Net Migration Eritrea
-NTMGNGNQ Index Net Migration Equatorial Guinea
-NTMGNSLV Index Net Migration El Salvador
-NTMGNEGY Index Net Migration Egypt Arab Rep
-NTMGNECU Index Net Migration Ecuador
-NTMGNEAP Index Net Migration East Asia & Pacific Developing Only
-NTMGNEAS Index Net Migration East Asia & Pacific All Income Levels
-NTMGNDOM Index Net Migration Dominican Republic
-NTMGNDMA Index Net Migration Dominica
-NTMGNDJI Index Net Migration Djibouti
-NTMGNDNK Index Net Migration Denmark
-NTMGNCZE Index Net Migration Czech Republic
-NTMGNCYP Index Net Migration Cyprus
-NTMGNCUW Index Net Migration Curacao
-NTMGNCUB Index Net Migration Cuba
-NTMGNHRV Index Net Migration Croatia
-NTMGNCIV Index Net Migration Cote Divoire
-NTMGNCRI Index Net Migration Costa Rica
-NTMGNCOG Index Net Migration Congo Rep
-NTMGNCOD Index Net Migration Congo Dem Rep
-NTMGNCOM Index Net Migration Comoros
-NTMGNCOL Index Net Migration Colombia
-NTMGNCHN Index Net Migration China
-NTMGNCHL Index Net Migration Chile
-NTMGNCHI Index Net Migration Channel Islands
-NTMGNTCD Index Net Migration Chad
-NTMGNCAF Index Net Migration Central African Republic
-NTMGNCYM Index Net Migration Cayman Islands
-NTMGNCPV Index Net Migration Cape Verde
-NTMGNCAN Index Net Migration Canada
-NTMGNCMR Index Net Migration Cameroon
-NTMGNKHM Index Net Migration Cambodia
-NTMGNBDI Index Net Migration Burundi
-NTMGNBFA Index Net Migration Burkina Faso
-NTMGNBGR Index Net Migration Bulgaria
-NTMGNBRN Index Net Migration Brunei Darussalam
-NTMGNBRA Index Net Migration Brazil
-NTMGNBWA Index Net Migration Botswana
-NTMGNBIH Index Net Migration Bosnia And Herzegovina
-NTMGNBOL Index Net Migration Bolivia
-NTMGNBTN Index Net Migration Bhutan
-NTMGNBMU Index Net Migration Bermuda
-NTMGNBEN Index Net Migration Benin
-NTMGNBLZ Index Net Migration Belize
-NTMGNBEL Index Net Migration Belgium
-NTMGNBLR Index Net Migration Belarus
-NTMGNBRB Index Net Migration Barbados
-NTMGNBGD Index Net Migration Bangladesh
-NTMGNBHR Index Net Migration Bahrain
-NTMGNBHS Index Net Migration Bahamas The
-NTMGNAZE Index Net Migration Azerbaijan
-NTMGNAUT Index Net Migration Austria
-NTMGNAUS Index Net Migration Australia
-NTMGNABW Index Net Migration Aruba
-NTMGNARM Index Net Migration Armenia
-NTMGNARG Index Net Migration Argentina
-NTMGNARB Index Net Migration Arab World
-NTMGNATG Index Net Migration Antigua And Barbuda
-NTMGNAGO Index Net Migration Angola
-NTMGNAND Index Net Migration Andorra
-NTMGNASM Index Net Migration American Samoa
-NTMGNDZA Index Net Migration Algeria
-NTMGNALB Index Net Migration Albania
-NTMGNAFG Index Net Migration Afghanistan JPPOPNM Index  Japan Population Net Migration AUDSPNOW Index Australia Population Change Net Overseas Migration WA AUDSPNOV Index Australia Population Change Net Overseas Migration VIC
+NTMGNZWE Index,Net Migration Zimbabwe
+NTMGNZMB Index,Net Migration Zambia
+NTMGNYEM Index,Net Migration Yemen Rep
+NTMGNWLD Index,Net Migration World
+NTMGNPSE Index,Net Migration West Bank And Gaza
+NTMGNVIR Index,Net Migration Virgin Islands Us
+NTMGNVNM Index,Net Migration Vietnam
+NTMGNVEN Index,Net Migration Venezuela Rb
+NTMGNVUT Index,Net Migration Vanuatu
+NTMGNUZB Index,Net Migration Uzbekistan
+NTMGNURY Index,Net Migration Uruguay
+NTMGNUMC Index,Net Migration Upper Middle Income
+NTMGNUSA Index,Net Migration United States
+NTMGNGBR Index,Net Migration United Kingdom
+NTMGNARE Index,Net Migration United Arab Emirates
+NTMGNUKR Index,Net Migration Ukraine
+NTMGNUGA Index,Net Migration Uganda
+NTMGNTUV Index,Net Migration Tuvalu
+NTMGNTCA Index,Net Migration Turks And Caicos Islands
+NTMGNTKM Index,Net Migration Turkmenistan
+NTMGNTUR Index,Net Migration Turkey
+NTMGNTUN Index,Net Migration Tunisia
+NTMGNTTO Index,Net Migration Trinidad And Tobago
+NTMGNTON Index,Net Migration Tonga
+NTMGNTGO Index,Net Migration Togo
+NTMGNTLS Index,Net Migration Timorleste
+NTMGNTHA Index,Net Migration Thailand
+NTMGNTZA Index,Net Migration Tanzania
+NTMGNTJK Index,Net Migration Tajikistan
+NTMGNSYR Index,Net Migration Syrian Arab Republic
+NTMGNCHE Index,Net Migration Switzerland
+NTMGNSWE Index,Net Migration Sweden
+NTMGNSWZ Index,Net Migration Swaziland
+NTMGNSUR Index,Net Migration Suriname
+NTMGNSDN Index,Net Migration Sudan
+NTMGNSSA Index,Net Migration Subsaharan Africa Developing Only
+NTMGNSSF Index,Net Migration Subsaharan Africa All Income Levels
+NTMGNVCT Index,Net Migration St Vincent And The Grenadines
+NTMGNMAF Index,Net Migration St Martin French Part
+NTMGNLCA Index,Net Migration St Lucia
+NTMGNKNA Index,Net Migration St Kitts And Nevis
+NTMGNLKA Index,Net Migration Sri Lanka
+NTMGNESP Index,Net Migration Spain
+NTMGNSSD Index,Net Migration South Sudan
+NTMGNSAS Index,Net Migration South Asia
+NTMGNZAF Index,Net Migration South Africa
+NTMGNSOM Index,Net Migration Somalia
+NTMGNSLB Index,Net Migration Solomon Islands
+NTMGNSVN Index,Net Migration Slovenia
+NTMGNSVK Index,Net Migration Slovak Republic
+NTMGNSXM Index,Net Migration Sint Maarten Dutch Part
+NTMGNSGP Index,Net Migration Singapore
+NTMGNSLE Index,Net Migration Sierra Leone
+NTMGNSYC Index,Net Migration Seychelles
+NTMGNSRB Index,Net Migration Serbia
+NTMGNSEN Index,Net Migration Senegal
+NTMGNSAU Index,Net Migration Saudi Arabia
+NTMGNSTP Index,Net Migration Sao Tome And Principe
+NTMGNSMR Index,Net Migration San Marino
+NTMGNWSM Index,Net Migration Samoa
+NTMGNRWA Index,Net Migration Rwanda
+NTMGNRUS Index,Net Migration Russian Federation
+NTMGNROU Index,Net Migration Romania
+NTMGNQAT Index,Net Migration Qatar
+NTMGNPRI Index,Net Migration Puerto Rico
+NTMGNPRT Index,Net Migration Portugal
+NTMGNPOL Index,Net Migration Poland
+NTMGNPHL Index,Net Migration Philippines
+NTMGNPER Index,Net Migration Peru
+NTMGNPRY Index,Net Migration Paraguay
+NTMGNPNG Index,Net Migration Papua New Guinea
+NTMGNPAN Index,Net Migration Panama
+NTMGNPLW Index,Net Migration Palau
+NTMGNPAK Index,Net Migration Pakistan
+NTMGNOMN Index,Net Migration Oman
+NTMGNOED Index,Net Migration OECD Members
+NTMGNINX Index,Net Migration Not Classified
+NTMGNNOR Index,Net Migration Norway
+NTMGNMNP Index,Net Migration Northern Mariana Islands
+NTMGNNAC Index,Net Migration North America
+NTMGNNGA Index,Net Migration Nigeria
+NTMGNNER Index,Net Migration Niger
+NTMGNNIC Index,Net Migration Nicaragua
+NTMGNNZL Index,Net Migration New Zealand
+NTMGNNCL Index,Net Migration New Caledonia
+NTMGNNLD Index,Net Migration Netherlands
+NTMGNNPL Index,Net Migration Nepal
+NTMGNNAM Index,Net Migration Namibia
+NTMGNMMR Index,Net Migration Myanmar
+NTMGNMOZ Index,Net Migration Mozambique
+NTMGNMAR Index,Net Migration Morocco
+NTMGNMNE Index,Net Migration Montenegro
+NTMGNMNG Index,Net Migration Mongolia
+NTMGNMCO Index,Net Migration Monaco
+NTMGNMDA Index,Net Migration Moldova
+NTMGNMIC Index,Net Migration Middle Income
+NTMGNFSM Index,Net Migration Micronesia Fed Sts
+NTMGNMEX Index,Net Migration Mexico
+NTMGNMNA Index,Net Migration Mddl Est& North Africa Developing Only
+NTMGNMEA Index,Net Migration Mddl Est& North Africa All Income Levels
+NTMGNMYT Index,Net Migration Mayotte
+NTMGNMUS Index,Net Migration Mauritius
+NTMGNMRT Index,Net Migration Mauritania
+NTMGNMHL Index,Net Migration Marshall Islands
+NTMGNMLT Index,Net Migration Malta
+NTMGNMLI Index,Net Migration Mali
+NTMGNMDV Index,Net Migration Maldives
+NTMGNMYS Index,Net Migration Malaysia
+NTMGNMWI Index,Net Migration Malawi
+NTMGNMDG Index,Net Migration Madagascar
+NTMGNMKD Index,Net Migration Macedonia FYR
+NTMGNMAC Index,Net Migration Macao SAR China
+NTMGNLUX Index,Net Migration Luxembourg
+NTMGNLMC Index,Net Migration Lower Middle Income
+NTMGNLIC Index,Net Migration Low Income
+NTMGNLMY Index,Net Migration Low & Middle Income
+NTMGNLTU Index,Net Migration Lithuania
+NTMGNLIE Index,Net Migration Liechtenstein
+NTMGNLBY Index,Net Migration Libya
+NTMGNLBR Index,Net Migration Liberia
+NTMGNLSO Index,Net Migration Lesotho
+NTMGNLBN Index,Net Migration Lebanon
+NTMGNLDC Index,Net Migration Least Dvlpd Countries UN Classification
+NTMGNLVA Index,Net Migration Latvia
+NTMGNLAO Index,Net Migration Lao Pdr
+NTMGNLAC Index,Net Migration LA & Caribbean Developing Only
+NTMGNLCN Index,Net Migration LA & Caribbean All Income Levels
+NTMGNKGZ Index,Net Migration Kyrgyz Republic
+NTMGNKWT Index,Net Migration Kuwait
+NTMGNKSV Index,Net Migration Kosovo
+NTMGNKOR Index,Net Migration Korea Rep
+NTMGNPRK Index,Net Migration Korea Dem Rep
+NTMGNKIR Index,Net Migration Kiribati
+NTMGNKEN Index,Net Migration Kenya
+NTMGNKAZ Index,Net Migration Kazakhstan
+NTMGNJOR Index,Net Migration Jordan
+NTMGNJPN Index,Net Migration Japan
+NTMGNJAM Index,Net Migration Jamaica
+NTMGNITA Index,Net Migration Italy
+NTMGNISR Index,Net Migration Israel
+NTMGNIMN Index,Net Migration Isle Of Man
+NTMGNIRL Index,Net Migration Ireland
+NTMGNIRQ Index,Net Migration Iraq
+NTMGNIRN Index,Net Migration Iran Islamic Rep
+NTMGNIDN Index,Net Migration Indonesia
+NTMGNIND Index,Net Migration India
+NTMGNISL Index,Net Migration Iceland
+NTMGNHUN Index,Net Migration Hungary
+NTMGNHKG Index,Net Migration Hong Kong SAR China
+NTMGNHND Index,Net Migration Honduras
+NTMGNOEC Index,Net Migration High Income OECD
+NTMGNNOC Index,Net Migration High Income NonOECD
+NTMGNHIC Index,Net Migration High Income
+NTMGNHPC Index,Net Migration Heavily Indebted Poor Countries HIPC
+NTMGNHTI Index,Net Migration Haiti
+NTMGNGUY Index,Net Migration Guyana
+NTMGNGNB Index,Net Migration Guineabissau
+NTMGNGIN Index,Net Migration Guinea
+NTMGNGTM Index,Net Migration Guatemala
+NTMGNGUM Index,Net Migration Guam
+NTMGNGRD Index,Net Migration Grenada
+NTMGNGRL Index,Net Migration Greenland
+NTMGNGRC Index,Net Migration Greece
+NTMGNGIB Index,Net Migration Gibraltar
+NTMGNGHA Index,Net Migration Ghana
+NTMGNDEU Index,Net Migration Germany
+NTMGNGEO Index,Net Migration Georgia
+NTMGNGMB Index,Net Migration Gambia The
+NTMGNGAB Index,Net Migration Gabon
+NTMGNPYF Index,Net Migration French Polynesia
+NTMGNFRA Index,Net Migration France
+NTMGNFIN Index,Net Migration Finland
+NTMGNFJI Index,Net Migration Fiji
+NTMGNFRO Index,Net Migration Faeroe Islands
+NTMGNEUU Index,Net Migration European Union
+NTMGNECA Index,Net Migration Europe & Central Asia Developing Only
+NTMGNECS Index,Net Migration Europe & Central Asia All Income Levels
+NTMGNEMU Index,Net Migration Euro Area
+NTMGNETH Index,Net Migration Ethiopia
+NTMGNEST Index,Net Migration Estonia
+NTMGNERI Index,Net Migration Eritrea
+NTMGNGNQ Index,Net Migration Equatorial Guinea
+NTMGNSLV Index,Net Migration El Salvador
+NTMGNEGY Index,Net Migration Egypt Arab Rep
+NTMGNECU Index,Net Migration Ecuador
+NTMGNEAP Index,Net Migration East Asia & Pacific Developing Only
+NTMGNEAS Index,Net Migration East Asia & Pacific All Income Levels
+NTMGNDOM Index,Net Migration Dominican Republic
+NTMGNDMA Index,Net Migration Dominica
+NTMGNDJI Index,Net Migration Djibouti
+NTMGNDNK Index,Net Migration Denmark
+NTMGNCZE Index,Net Migration Czech Republic
+NTMGNCYP Index,Net Migration Cyprus
+NTMGNCUW Index,Net Migration Curacao
+NTMGNCUB Index,Net Migration Cuba
+NTMGNHRV Index,Net Migration Croatia
+NTMGNCIV Index,Net Migration Cote Divoire
+NTMGNCRI Index,Net Migration Costa Rica
+NTMGNCOG Index,Net Migration Congo Rep
+NTMGNCOD Index,Net Migration Congo Dem Rep
+NTMGNCOM Index,Net Migration Comoros
+NTMGNCOL Index,Net Migration Colombia
+NTMGNCHN Index,Net Migration China
+NTMGNCHL Index,Net Migration Chile
+NTMGNCHI Index,Net Migration Channel Islands
+NTMGNTCD Index,Net Migration Chad
+NTMGNCAF Index,Net Migration Central African Republic
+NTMGNCYM Index,Net Migration Cayman Islands
+NTMGNCPV Index,Net Migration Cape Verde
+NTMGNCAN Index,Net Migration Canada
+NTMGNCMR Index,Net Migration Cameroon
+NTMGNKHM Index,Net Migration Cambodia
+NTMGNBDI Index,Net Migration Burundi
+NTMGNBFA Index,Net Migration Burkina Faso
+NTMGNBGR Index,Net Migration Bulgaria
+NTMGNBRN Index,Net Migration Brunei Darussalam
+NTMGNBRA Index,Net Migration Brazil
+NTMGNBWA Index,Net Migration Botswana
+NTMGNBIH Index,Net Migration Bosnia And Herzegovina
+NTMGNBOL Index,Net Migration Bolivia
+NTMGNBTN Index,Net Migration Bhutan
+NTMGNBMU Index,Net Migration Bermuda
+NTMGNBEN Index,Net Migration Benin
+NTMGNBLZ Index,Net Migration Belize
+NTMGNBEL Index,Net Migration Belgium
+NTMGNBLR Index,Net Migration Belarus
+NTMGNBRB Index,Net Migration Barbados
+NTMGNBGD Index,Net Migration Bangladesh
+NTMGNBHR Index,Net Migration Bahrain
+NTMGNBHS Index,Net Migration Bahamas The
+NTMGNAZE Index,Net Migration Azerbaijan
+NTMGNAUT Index,Net Migration Austria
+NTMGNAUS Index,Net Migration Australia
+NTMGNABW Index,Net Migration Aruba
+NTMGNARM Index,Net Migration Armenia
+NTMGNARG Index,Net Migration Argentina
+NTMGNARB Index,Net Migration Arab World
+NTMGNATG Index,Net Migration Antigua And Barbuda
+NTMGNAGO Index,Net Migration Angola
+NTMGNAND Index,Net Migration Andorra
+NTMGNASM Index,Net Migration American Samoa
+NTMGNDZA Index,Net Migration Algeria
+NTMGNALB Index,Net Migration Albania
+NTMGNAFG Index,Net Migration Afghanistan JPPOPNM Index  Japan Population Net Migration AUDSPNOW Index,Australia Population Change Net Overseas Migration WA AUDSPNOV Index Australia Population Change Net Overseas Migration VIC
