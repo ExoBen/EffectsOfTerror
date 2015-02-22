@@ -88,6 +88,7 @@ def countries():
         "Germany":"DE",
         "Ghana":"GH",
         "Gibraltar":"GI",
+        "Great Britain":"GB",
         "Greece":"GR",
         "Greenland":"GL",
         "Grenada":"GD",
