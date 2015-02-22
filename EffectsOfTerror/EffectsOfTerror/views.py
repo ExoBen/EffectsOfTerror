@@ -17,8 +17,11 @@ def search(request):
     return render(request, "searchResult.html", args)
 
 def graph(request):
-    #query = bloom.getBloombergQueries("United States", "2006", "3", "5")
-    query = bloom.getBloombergQueries("United States", "2013", "9", "24")
+    country = request.GET["country"]
+    year = request.GET["year"]
+    month = request.GET["month"]
+    day = request.GET["day"]
+    query = bloom.getBloombergQueries(country, year, month, day)
     result = bloom.request(query)
     print result
     args = {}
