@@ -18,6 +18,7 @@ def graph(request):
     result = bloomberg.request()
     args = {}
     res = {}
+    print result
     for value in result["data"]:
         #print value
         res[value["securityData"]["security"]] = value["securityData"]["fieldData"]

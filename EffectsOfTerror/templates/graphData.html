@@ -150,10 +150,10 @@ for (var value in data) {
     }
 }
 
-drawGraph(data["IBM US Equity"], "#stock");
-drawGraph(data["AAPL US Equity"], "#bonds");
-drawGraph(data["IBM US Equity"], "#risk");
-drawGraph(data["AAPL US Equity"], "#migration");
+drawGraph(data[Object.keys(data)[0]], "#stock");
+drawGraph(data[Object.keys(data)[1]], "#bonds");
+drawGraph(data[Object.keys(data)[2]], "#risk");
+drawGraph(data[Object.keys(data)[3]], "#migration");
 
 </script>
 {% endblock %}
