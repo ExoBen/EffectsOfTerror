@@ -4,14 +4,38 @@
 
 <div class="row">
     <div class="12-small columns">
+        <div class="panel">
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Month</th>
+                    <th>Day</th>
+                    <th>Country</th>
+                    <th>Region</th>
+                    <th>State</th>
+                    <th>City</th>
+                    <th>Location</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody>
         {% for result in results %}
-            <div class="panel">
-                {{ result }}
-            </div>
+        <tr>
+            {% for element in result.0 %}
+            <td>{{ element }}</td>
+            {% endfor %}
+            <td><a class="button" href="">Select</a></td>
+        </tr>
+
         {% empty %}
             No results!
         {% endfor %}
+    </tbody>
+</table>
+
     </div>
+</div>
 </div>
 
 {% endblock %}

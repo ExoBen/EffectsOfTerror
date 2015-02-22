@@ -6,5 +6,4 @@ urlpatterns = patterns('',
     url(r'^$', 'EffectsOfTerror.views.home', name='home'),
     url(r'^search/', 'EffectsOfTerror.views.search', name='search'),
     url(r'^graph/', 'EffectsOfTerror.views.graph', name='graph'),
-    url(r'^admin/', include(admin.site.urls)),
 )

@@ -10,8 +10,7 @@ def search(request):
     searchParam = request.GET["query"]
 
     results = [searchGTD.search(searchParam, "30")]
-    args = {"results":results}
-    print results
+    args = {"results":results[0]}
 
     return render(request, "searchResult.html", args)
 
