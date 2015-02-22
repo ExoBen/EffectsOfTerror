@@ -6,6 +6,7 @@ import urllib2
 import BloombergData
 import re
 import countries
+import ast
 
 # Data
 
@@ -16,19 +17,19 @@ countryCode = countries.countries()
 
 # Main Functions
 
-data = getBloombergQueries(country, year, month, day)
 
-def request():
+
+def request(data):
     req = urllib2.Request('https://http-api.openbloomberg.com/request?ns=blp&service=refdata&type=HistoricalDataRequest')
     req.add_header('Content-Type', 'application/json')
 
     ctx = ssl.SSLContext(ssl.PROTOCOL_SSLv23)
-    ctx.load_verify_locations('../../keys/bloomberg.crt')
-    ctx.load_cert_chain('../../keys/stacshack_spring_2015_023.crt', '../../keys/stacshack_spring_2015_023.key')
+    ctx.load_verify_locations('../keys/bloomberg.crt')
+    ctx.load_cert_chain('../keys/stacshack_spring_2015_023.crt', '../keys/stacshack_spring_2015_023.key')
 
     try:
         res = urllib2.urlopen(req, data=json.dumps(data), context=ctx)
-        print res.read()
+        return res.read()
     except Exception as e:
         e
         print e
@@ -82,3 +83,6 @@ def buildDates(year, month, day):
 
     return [yea0 + mon + da, yea1 + mon + da]
 
+#data = getBloombergQueries(country, year, month, day)
+#data = getBloombergQueries("United Kingdom", "2006", "3", "5")
+#print request(data)

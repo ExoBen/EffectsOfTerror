@@ -143,17 +143,18 @@ function drawGraph(lineData, visID) {
 
 
 var data = {{ result | safe }};
-for (var value in data) {
-    if (data.hasOwnProperty(value)) {
-        console.log(value);       //Title
-        console.log(data[value]); //Data Set
-    }
-}
+console.log(data["data"]);
+console.log(data["data"]["0"]["securityData"]["fieldData"]);
 
-drawGraph(data["IBM US Equity"], "#stock");
-drawGraph(data["AAPL US Equity"], "#bonds");
-drawGraph(data["IBM US Equity"], "#risk");
-drawGraph(data["AAPL US Equity"], "#migration");
+alert(Object.keys(data["data"]));
+i = 0;
+var types = ["stock","bonds","risk","migration"]
+for (var keyValue in Object.keys(data["data"])) {
+    alert(keyValue);
+    drawGraph(data["data"][keyValue]["securityData"]["fieldData"], "#" + types[i]);
+    alert(types[i]);
+    i++;
+}
 
 </script>
 {% endblock %}

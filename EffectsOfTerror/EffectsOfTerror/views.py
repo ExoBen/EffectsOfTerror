@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from subprocess import check_output
 import searchGTD
-import bloomberg
+import bloombergTests as bloom
+
+import ast
 
 def home(request):
     return render(request, "index.html")
@@ -15,12 +17,10 @@ def search(request):
     return render(request, "searchResult.html", args)
 
 def graph(request):
-    result = bloomberg.request()
+    #query = bloom.getBloombergQueries("United States", "2006", "3", "5")
+    query = bloom.getBloombergQueries("United States", "2013", "9", "24")
+    result = bloom.request(query)
+    print result
     args = {}
-    res = {}
-    for value in result["data"]:
-        #print value
-        res[value["securityData"]["security"]] = value["securityData"]["fieldData"]
-
-    args["result"] = res
+    args["result"] = result
     return render(request, "graphData.html", args)

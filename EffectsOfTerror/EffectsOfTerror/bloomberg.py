@@ -5,7 +5,7 @@ import sys
 import urllib2
 
 data = {
-    "securities": ["IBM US Equity", "AAPL US Equity"],
+    "securities": ["IBM US Equity", "AAPL US Equity", "INTC US Equity", "T US Equity"],
     "fields": ["PX_LAST"],
     "startDate": "20120101",
     "endDate": "20120301",
