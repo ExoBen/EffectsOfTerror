@@ -241,4 +241,7 @@ NTMGNAND Index,Net Migration Andorra
 NTMGNASM Index,Net Migration American Samoa
 NTMGNDZA Index,Net Migration Algeria
 NTMGNALB Index,Net Migration Albania
-NTMGNAFG Index,Net Migration Afghanistan JPPOPNM Index  Japan Population Net Migration AUDSPNOW Index,Australia Population Change Net Overseas Migration WA AUDSPNOV Index Australia Population Change Net Overseas Migration VIC
+NTMGNAFG Index,Net Migration Afghanistan
+JPPOPNM Index,Japan Population Net Migration
+AUDSPNOW Index,Australia Population Change Net Overseas Migration WA
+AUDSPNOV Index,Australia Population Change Net Overseas Migration VIC
